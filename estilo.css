@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Fjalla+One&family=Maven+Pro&family=Vesper+Libre&display=swap');
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+}
+
+h2 {
+ font-family: 'Fjalla One', sans-serif;
+}
+
+h3 {
+ font-family: 'Fjalla One', sans-serif;
+}
+
+h4 {
+ font-family: 'Fjalla One', sans-serif;
+}
+
+h5 {
+ font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+ font-family: 'Maven Pro', sans-serif;
+ padding-right: 50px;
+}
+
+td {
+ width: 50rem;
+}
+
+/* Style the side navigation */
+.sidenav {
+ height: 100%;
+ width: 200px;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ background-color: #0F044C;
+ overflow-x: hidden;
+ font-family: 'Fjalla One', sans-serif;
+}
+
+/* Side navigation links */
+.sidenav a {
+ color: white;
+ padding: 25px;
+ text-decoration: none;
+ display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+ background-color: #787A91;
+ transition: 0.5s;
+}
+
+/* Style the content */
+.content {
+ margin-left: 200px;
+ padding-left: 20px;
+ background-color: white;
+}
+
+@media (max-width: 800px) {
+ .sidenav {
+   width: 100px;
+     
+ }
+
+.p {
+ padding-right: none;
+ font-size: 5vw;
+ 
+}
+
+.content {
+ margin-left: 100px;
+
+}
+
+}

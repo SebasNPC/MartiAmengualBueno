@@ -75,10 +75,11 @@ td {
   height: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 400px) {
  .sidenav {
-   width: 100px;
-   left: -100px;
+  width: 100%;
+  height: auto;
+  position: relative;
  }
 
 .p {
